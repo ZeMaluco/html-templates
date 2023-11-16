@@ -1,0 +1,476 @@
+<div class="titulo-how-to-plant module-title">
+	<h2>OS NOSSOS SERVI&Ccedil;OS</h2>
+	</div>
+	
+	<div class="tab"><button class="tablinks" id="SistemasFotovoltaicos1" onclick="openCity(event, 'SistemasFotovoltaicos')">Sistemas Fotovoltaicos</button><button class="tablinks" id="EficienciaEnergetica1" onclick="openCity(event, 'EficienciaEnergetica')">Efici&ecirc;ncia Energ&eacute;tica</button><button class="tablinks" id="PisoRadiante1" onclick="openCity(event, 'PisoRadiante')">Piso Radiante</button><button class="tablinks" id="BombagemSolar1" onclick="openCity(event, 'BombagemSolar')">Bombagem Solar</button><button class="tablinks" id="AutomacaoIndustrial1" onclick="openCity(event, 'AutomacaoIndustrial')">Automa&ccedil;&atilde;o Industrial</button><button class="tablinks" id="Climatizacao1" onclick="openCity(event, 'Climatizacao')">Climatiza&ccedil;&atilde;o</button></div>
+	
+	<div class="tabcontent" id="SistemasFotovoltaicos">
+	<div class="text-cols"><button class="accordion">Autoconsumo (UPAC)</button>
+	
+	<div class="panel">
+	<div class="teste" style="display: flex;">
+	<div class="text-div">
+	<p>Sistema de produ&ccedil;&atilde;o de energia el&eacute;ctrica para autoconsumo utilizando energias renov&aacute;veis, permitindo uma redu&ccedil;&atilde;o significativa do consumo el&eacute;ctrico.A energia el&eacute;ctrica produzida &eacute; injectada instantaneamente na instala&ccedil;&atilde;o de consumo. Nos per&iacute;odos de aus&ecirc;ncia ou produ&ccedil;&atilde;o insuficiente, &eacute; alimentada pela RESP (Rede el&eacute;ctrica de servi&ccedil;o publico). Caso exista excedente de produ&ccedil;&atilde;o, pode ser injectada e vendida &agrave; rede.</p>
+	
+	<p>&nbsp;</p>
+	</div>
+	
+	<div class="icons-div"><img alt="Paines" src="/image/catalog/cmsblock/Icons_Nimpher_Autoconsumo_Bateri.png" /></div>
+	</div>
+	</div>
+	<button class="accordion">Autoconsumo (UPAC) com acumula&ccedil;&atilde;o em baterias</button>
+	
+	<div class="panel">
+	<div class="teste" style="display: flex;">
+	<div class="text-div">
+	<p>Sistema de produ&ccedil;&atilde;o de energia el&eacute;ctrica para autoconsumo utilizando energias renov&aacute;veis, permitindo uma redu&ccedil;&atilde;o parcial ou total do consumo el&eacute;ctrico.A energia el&eacute;ctrica produzida &eacute; para consumo instant&acirc;neo e acumula&ccedil;&atilde;o de excedente em baterias, permitindo a sua utiliza&ccedil;&atilde;o em per&iacute;odos de aus&ecirc;ncia de produ&ccedil;&atilde;o. A instala&ccedil;&atilde;o continua ligada RESP (Rede el&eacute;ctrica de servi&ccedil;o publico) para per&iacute;odos de aus&ecirc;ncia de produ&ccedil;&atilde;o/acumula&ccedil;&atilde;o</p>
+	
+	<p>&nbsp;</p>
+	</div>
+	
+	<div class="icons-div"><img alt="Paines" src="/image/catalog/cmsblock/Icons_Nimpher_Autoconsumo_2.png" /></div>
+	</div>
+	</div>
+	<button class="accordion">Venda Total de Energia</button>
+	
+	<div class="panel">
+	<div class="teste" style="display: flex;">
+	<div class="text-div">
+	<p>Sistema de produ&ccedil;&atilde;o de energia el&eacute;ctrica utilizando energias renov&aacute;veis, para venda da totalidade da energia produzida &agrave; rede (RESP). A unidade de produ&ccedil;&atilde;o &eacute; independente da unidade de consumo.</p>
+	
+	<p>&nbsp;</p>
+	</div>
+	
+	<div class="icons-div"><img alt="Paines" src="/image/catalog/cmsblock/Icons_Nimpher_Venda_Energia_2.png" /></div>
+	</div>
+	</div>
+	<button class="accordion">Sistema isolado off-grid</button>
+	
+	<div class="panel">
+	<div class="teste" style="display: flex;">
+	<div class="text-div">
+	<p>Sistema aut&oacute;nomo de produ&ccedil;&atilde;o de energia el&eacute;ctrica isolado da rede (RESP), utilizando energias renov&aacute;veis. &Eacute; principalmente utilizado em zonas onde n&atilde;o existe rede el&eacute;ctrica ou o seu custo &eacute; elevado. A energia el&eacute;ctrica gerada &eacute; acumulada em baterias para utiliza&ccedil;&atilde;o sempre que necess&aacute;rio.</p>
+	
+	<p>&nbsp;</p>
+	</div>
+	
+	<div class="icons-div"><img alt="Paines" src="/image/catalog/cmsblock/Icons_Nimpher_Sistema_isolado_Of.png" /></div>
+	</div>
+	</div>
+	</div>
+	<img alt="Paines" src="/image/catalog/cmsblock/serviços/Sistema%20Fotovoltaico.jpg" style="width: 100%;" /></div>
+	
+	<div class="tabcontent" id="EficienciaEnergetica">
+	<div class="text-cols"><button class="accordion">Monitoriza&ccedil;&atilde;o de Consumos Energ&eacute;ticos</button>
+	
+	<div class="panel">
+	<div class="teste" style="display: flex;">
+	<div class="text-div">
+	<p>Sistemas completos de monitoriza&ccedil;&atilde;o de energia que permitem o acesso &agrave; informa&ccedil;&atilde;o em tempo real ou hist&oacute;rico acumulado, dos principais consumidores energ&eacute;ticos da sua empresa. Instala&ccedil;&atilde;o de equipamentos de medi&ccedil;&atilde;o de electricidade, g&aacute;s e &aacute;gua. Saiba onde, quando e como utiliza a sua energia.</p>
+	
+	<p>&nbsp;</p>
+	</div>
+	
+	<div class="icons-div"><img alt="Paines" src="/image/catalog/cmsblock/serviços/Icons_Nimpher_Eficiencia_Energet.png" /></div>
+	</div>
+	</div>
+	<button class="accordion">Qualidade de energia el&eacute;trica</button>
+	
+	<div class="panel">
+	<div class="teste" style="display: flex;">
+	<div class="text-div">
+	<p>Medi&ccedil;&atilde;o e an&aacute;lise da qualidade de energia el&eacute;ctrica na instala&ccedil;&atilde;o. Identifica&ccedil;&atilde;o de elementos perturbadores e causadores de problemas e adop&ccedil;&atilde;o de medidas tais como filtros de harm&oacute;nicos, estabilizadores de tens&atilde;o, UPS.</p>
+	
+	<p>&nbsp;</p>
+	</div>
+	
+	<div class="icons-div"><img alt="Paines" src="/image/catalog/cmsblock/serviços/Icon_Eletricidade.png" /></div>
+	</div>
+	</div>
+	<button class="accordion">Baterias de Condensadores &ndash; Compensa&ccedil;&atilde;o Energia Reactiva</button>
+	
+	<div class="panel">
+	<div class="teste" style="display: flex;">
+	<div class="text-div">
+	<p>Eliminar os encargos com energia reactiva na instala&ccedil;&atilde;o el&eacute;ctrica &eacute; uma prioridade, al&eacute;m de permitir aumentar a capacidade de pot&ecirc;ncia activa dispon&iacute;vel e melhorar a qualidade de energia. Efectuamos o c&aacute;lculo, medi&ccedil;&atilde;o, instala&ccedil;&atilde;o e manuten&ccedil;&atilde;o de baterias de condensadores.</p>
+	
+	<p>&nbsp;</p>
+	</div>
+	
+	<div class="icons-div"><img alt="Paines" src="/image/catalog/cmsblock/serviços/Icons_Iluminacao_Baterias.png" /></div>
+	</div>
+	</div>
+	<button class="accordion">Ilumina&ccedil;&atilde;o LED</button>
+	
+	<div class="panel">
+	<div class="teste" style="display: flex;">
+	<div class="text-div">
+	<p>A instala&ccedil;&atilde;o de ilumina&ccedil;&atilde;o eficiente, principalmente emlocais com varias horas de utiliza&ccedil;&atilde;o di&aacute;rias, &eacute; das medidas mais simples,r&aacute;pidas de implementar e eficazes para reduzir o consumo el&eacute;ctrico.Efectuamos estudo e implementa&ccedil;&atilde;o de solu&ccedil;&otilde;es luminot&eacute;cnicas.</p>
+	
+	<p>&nbsp;</p>
+	</div>
+	
+	<div class="icons-div">
+	<div class="icons-div"><img alt="Paines" src="/image/catalog/cmsblock/serviços/Icons_Iluminacao.png" /></div>
+	</div>
+	</div>
+	</div>
+	<button class="accordion">Mobilidade El&eacute;trica</button>
+	
+	<div class="panel">
+	<div class="teste" style="display: flex;">
+	<div class="text-div">
+	<p>Fornecimento e instala&ccedil;&atilde;o de postos carregamento para veiculos el&eacute;tricos. Solu&ccedil;&otilde;es dom&eacute;sticas e empresariais.</p>
+	
+	<p>&nbsp;</p>
+	</div>
+	
+	<div class="icons-div"><img alt="Paines" src="/image/catalog/cmsblock/serviços/Icons_Nimpher_Mobilidade_Eletric.png" /></div>
+	</div>
+	</div>
+	</div>
+	<img alt="Paines" src="/image/catalog/cmsblock/efeciencia.png" style="width: 100%;" /></div>
+	
+	<div class="tabcontent" id="PisoRadiante">
+	<div class="teste" style="display: flex;">
+	<div class="text-div">
+	<h3>Piso Radiante El&eacute;trico</h3>
+	
+	<p>- O aquecimento por piso radiante, pelas suas numerosas vantagens em rela&ccedil;&atilde;o a outros sistemas, converte-se numa &oacute;tima alternativa de aquecimento.</p>
+	
+	<p>- Um sistema silencio, saud&aacute;vel, sem poeiras e sem movimenta&ccedil;&otilde;es de ar. A transmiss&atilde;o de calor, realiza-se de uma forma suave e homog&eacute;nea por toda a instala&ccedil;&atilde;o.</p>
+	
+	<p>- Regula&ccedil;&atilde;o e controlo de temperatura independente por zona.</p>
+	
+	<p>- Aus&ecirc;ncia de elementos externos. Incremento da &aacute;rea dispon&iacute;vel.</p>
+	
+	<p>- Integra&ccedil;&atilde;o com sistema fotovoltaicos. Efici&ecirc;ncia energ&eacute;tica.</p>
+	
+	<p>- Aus&ecirc;ncia de manuten&ccedil;&atilde;o.</p>
+	
+	<p>- Sistema direto: aplica&ccedil;&atilde;o do pavimento final diretamente em cima do piso radiante.</p>
+	
+	<p>- Sistema por acumula&ccedil;&atilde;o: aplica&ccedil;&atilde;o de 3-4cm de betonilha por cima do piso radiante e antes do pavimento final. Utilizado principalmente em nova constru&ccedil;&atilde;o.</p>
+	
+	<p>&nbsp;</p>
+	</div>
+	
+	<div class="icons-div"><img alt="Paines" src="/image/catalog/cmsblock/serviços/Icons_Piso_Radiante.png" style="margin-top: 3%;" /></div>
+	</div>
+	<img alt="Paines" src="/image/catalog/cmsblock/serviços/PisoRadianteElétrico.jpg" style="width: 100%;" /></div>
+	
+	<div class="tabcontent" id="BombagemSolar">
+	<div class="text-cols">
+	<div class="teste" style="display: flex;">
+	<div class="text-div">
+	<h3>Bombagem de &aacute;gua</h3>
+	
+	<p>- A bombagem de &aacute;gua atrav&eacute;s da utiliza&ccedil;&atilde;o da energia fotovoltaica, &eacute; uma solu&ccedil;&atilde;o energeticamente eficiente e econ&oacute;mica na maior parte dos casos.</p>
+	
+	<p>- Sistema vers&aacute;til e adaptado &agrave;s necessidades reais de cada situa&ccedil;&atilde;o, permite capta&ccedil;&otilde;es at&eacute; 600 metros de altura e motores at&eacute; 110kw.</p>
+	
+	<p>- Bomba centr&iacute;fuga, constru&iacute;da integralmente em a&ccedil;o inox e motor. AC de &iacute;manes permanentes. Controlador solar com protec&ccedil;&atilde;o IP67.</p>
+	
+	<p>- Pode ser aplic&aacute;vel:<br />
+	Zonas isoladas de rede el&eacute;trica: 100% solar ou sistema misto de solar + gerador.</p>
+	
+	<p>Zonas ligadas &agrave; rede el&eacute;trica: 100% solar ou sistema misto de solar + Gerar ou rede el&eacute;trica.</p>
+	
+	<p>&nbsp;</p>
+	</div>
+	
+	<div class="icons-div"><img alt="Paines" src="/image/catalog/cmsblock/serviços/Icons_Bombagem.png" style="margin-top: 3%;" /></div>
+	</div>
+	</div>
+	<img alt="Paines" src="/image/catalog/cmsblock/serviços/Bombagemágua.jpg" style="width: 100%;" /></div>
+	
+	<div class="tabcontent" id="AutomacaoIndustrial">
+	<div class="text-cols">
+	<div class="teste" style="display: flex;">
+	<div class="text-div">
+	<h3>Automa&ccedil;&atilde;o Industrial</h3>
+	
+	<p>- Elabora&ccedil;&atilde;o de projecto el&eacute;trico Eplan (accionamentos e controlo)</p>
+	
+	<p>- Programa&ccedil;&atilde;o de PLC e HMI</p>
+	
+	<p>- Instala&ccedil;&atilde;o e programa&ccedil;&atilde;o de variadores de velocidade</p>
+	
+	<p>- Instala&ccedil;&atilde;o e programa&ccedil;&atilde;o de atuadores de campo</p>
+	
+	<p>- Retrofitting de m&aacute;quinas/equipamentos</p>
+	
+	<p>- Adequa&ccedil;&atilde;o de equipamentos &agrave; diretiva m&aacute;quinas</p>
+	
+	<p>&nbsp;</p>
+	</div>
+	
+	<div class="icons-div"><img alt="Paines" src="/image/catalog/cmsblock/serviços/Iconsr_Automacao.png" style="margin-top: 3%;" /></div>
+	</div>
+	</div>
+	<img alt="Paines" src="/image/catalog/cmsblock/serviços/AutomaçãoIndustrial.jpg" style="width: 100%;" /></div>
+	
+	<div class="tabcontent" id="Climatizacao">
+	<div class="text-cols"><button class="accordion">Sistemas solares t&eacute;rmicos para aquecimento de &aacute;guas quentes sanit&aacute;rias (AQS)</button>
+	
+	<div class="panel">
+	<div class="teste" style="display: flex;">
+	<div class="text-div">
+	<p>A utiliza&ccedil;&atilde;o de energia solar t&eacute;rmica para aquecimento de AQS, permite obter mais de 70% das necessidades anuais com &aacute;gua quente, reduzindo significativamente os custos com energia prim&aacute;ria. Nos dias de aus&ecirc;ncia ou insufici&ecirc;ncia de sol para aquecer a &aacute;gua &agrave; temperatura desejada, o apoio pode ser dado por uma resist&ecirc;ncia el&eacute;ctrica alimentada por pain&eacute;is fotovoltaicos, obtendo 100% de energia gratuita.</p>
+	
+	<p>A utiliza&ccedil;&atilde;o de energia solar t&eacute;rmica para aquecimento de AQS, permite obter mais de 70% das necessidades anuais com &aacute;gua quente, reduzindo significativamente os custos com energia prim&aacute;ria. Nos dias de aus&ecirc;ncia ou insufici&ecirc;ncia de sol para aquecer a &aacute;gua &agrave; temperatura desejada, o apoio pode ser dado por uma resist&ecirc;ncia el&eacute;ctrica alimentada por pain&eacute;is fotovoltaicos, obtendo 100% de energia gratuita.</p>
+	
+	<p>&nbsp;</p>
+	</div>
+	
+	<div class="icons-div"><img alt="Paines" src="/image/catalog/cmsblock/1793851394.png" /></div>
+	</div>
+	</div>
+	<button class="accordion">Bomba de calor para aquecimento de &aacute;guas quentes sanit&aacute;rias e/ou climatiza&ccedil;&atilde;o de espa&ccedil;os</button>
+	
+	<div class="panel">
+	<div class="teste" style="display: flex;">
+	<div class="text-div">
+	<p>As bombas de calor s&atilde;o sistemas robustos e energeticamente eficientes, que permitem o aquecimento de AQS e/ou climatiza&ccedil;&atilde;o de espa&ccedil;os, a um custo de explora&ccedil;&atilde;o reduzido. A sua utiliza&ccedil;&atilde;o com sistema fotovoltaico, tornam a solu&ccedil;&atilde;o mais eficiente, pois a seu funcionamento &eacute; programado e ajustado para per&iacute;odos diurnos.</p>
+	
+	<p>&nbsp;</p>
+	</div>
+	
+	<div class="icons-div"><img alt="Paines" src="/image/catalog/cmsblock/serviços/1793851395.png" /></div>
+	</div>
+	</div>
+	<button class="accordion">Bomba de calor para aquecimento de Piscinas</button>
+	
+	<div class="panel">
+		<div class="teste" style="display: flex;">
+		<div class="text-div">
+	<p>Permite prolongar ou antecipar o per&iacute;odo de utiliza&ccedil;&atilde;o da piscina, mantendo uma temperatura de conforto na &aacute;gua. Acrescentando um by-pass no circuito existente, a &aacute;gua da piscina &eacute; encaminha para a bomba de calor, onde &eacute; aquecida antes de voltar a entrar na piscina.A sua utiliza&ccedil;&atilde;o com sistema fotovoltaico, tornam a solu&ccedil;&atilde;o mais eficiente, pois a seu funcionamento &eacute; programado e ajustado para per&iacute;odos diurnos.</p>
+	
+	<p>&nbsp;</p>
+	</div>
+	
+	<div class="icons-div"><img alt="Paines" src="/image/catalog/cmsblock/serviços/Icons_Climatizacao_Bomba.png" /></div>
+	</div>
+	</div>
+	<button class="accordion">Arrefecimento evaporativo e humidifica&ccedil;&atilde;o industrial</button>
+	
+	<div class="panel">
+		<div class="teste" style="display: flex;">
+		<div class="text-div">
+	<p>S&atilde;o sistemas constitu&iacute;dos por um conjunto de nebulizadores alimentados por uma bomba de alta press&atilde;o, que, impulsionando a &aacute;gua at&eacute; 70bar, permite baixar a temperatura de uma esplanada sem molhar ou criar um microclima com controlo de humidade.A sua utiliza&ccedil;&atilde;o &eacute; muito eficiente e v&aacute;lida em diferentes sectores e actividades.</p>
+	
+	<p><span>Restaura&ccedil;&atilde;o:</span> arrefecimento eficaz em esplanadas, al&eacute;m de funcionar como repelente de insectos. <span>Industria:</span> Cria&ccedil;&atilde;o de microclima c/ humidade controlada em camaras frigor&iacute;ficas. <span>Etars:</span> Elimina&ccedil;&atilde;o de odores e insectos. <span> Pedreiras:</span> Elimina&ccedil;&atilde;o e poeiras em suspens&atilde;o. <span> T&ecirc;xtil:</span> eliminar ou atenuar problema da electricidade est&aacute;tica. <span>Agro-pecu&aacute;ria:</span> Reduz maus-cheiros e insetos, melhora conforto dos animais, diminui taxa de mortalidade na pecu&aacute;ria al&eacute;m de permitir utilizar o sistema de nebuliza&ccedil;&atilde;o para desinfectar o local.</p>
+	
+	<p>&nbsp;</p>
+</div>
+
+<div class="icons-div"><img alt="Paines" src="/image/catalog/cmsblock/serviços/Icons_Climatizacao_arrefecimento.png" /></div>
+</div>
+</div>
+	
+	<div class="icons-col">&nbsp;</div>
+	<img alt="Paines" src="/image/catalog/cmsblock/climatizao.png" style="width: 100%;" /></div>
+	<script>
+				  
+				  
+							function openCity(evt, cityName) {
+							// Declare all variables
+							var i, tabcontent, tablinks;
+							
+							// Get all elements with class="tabcontent" and hide them
+							tabcontent = document.getElementsByClassName("tabcontent");
+							for (i = 0; i < tabcontent.length; i++) {
+							  tabcontent[i].style.display = "none";
+							}
+							
+							// Get all elements with class="tablinks" and remove the class "active"
+							tablinks = document.getElementsByClassName("tablinks");
+							for (i = 0; i < tablinks.length; i++) {
+							  tablinks[i].className = tablinks[i].className.replace(" active", "");
+							}
+							
+							// Show the current tab, and add an "active" class to the link that opened the tab
+							document.getElementById(cityName).style.display = "block";
+							evt.currentTarget.className += " active";
+							
+							}
+							window.onload = function() {
+							var url = document.URL;
+							var id = url.substring(url.lastIndexOf('#') + 1);
+							var id1 = id + "1";
+							document.getElementById(id1).className += " active";
+							document.getElementById(id).style.display = "block";
+							}
+				  </script>
+	<style type="text/css">* {box-sizing: border-box}
+							
+							/* Style the tab */
+							.tab {
+							float: left;
+							border-left: 2px solid #7B1755;
+							border-top: 2px solid #7B1755;
+							width: 20%;
+							}
+							
+							/* Style the buttons that are used to open the tab content */
+							.tab button {
+							display: block;
+							background-color: inherit;
+							color: black;
+							padding: 7px 16px;
+							width: 100%;
+							border: none;
+							outline: none;
+							text-align: left;
+							cursor: pointer;
+							transition: 0.3s;
+							}
+							
+							/* Change background color of buttons on hover */
+							.tab button:hover {
+							background-color: #7B1755;
+							color: white;
+							}
+							
+							/* Create an active/current "tab button" class */
+							.tab button.active {
+							background-color: #7B1755;
+							color: white;
+							}
+							
+							/* Style the tab content */
+							.tabcontent {
+							float: left;
+							padding: 0px 2px;
+							border-top: 2px solid #7B1755;
+							background-color: #F5F5F5;
+							width: 80%;
+							border-left: none;
+							}
+							
+							.text-cols {
+							width:100%;
+							margin : 0;
+							float : left ;
+							}
+							.text-div{
+										  width: 70%;
+									  }
+							.icons-col {
+							width:0;
+							margin : 0;
+							float : left ;
+							}
+							.icons-div{
+							margin-left: 3%;
+							}
+							.icons-div-radiante{
+							margin-top: 55%;
+							margin-bottom: 22%;
+							margin-left: 5%;
+							}
+							.icons-div-automacao{
+							margin-top: 30%;
+							margin-bottom: 22%;
+							margin-left: 5%;
+							}
+							.icons-div-climatizacao {
+							margin-top: 34%;
+							margin-bottom: 46%;
+							margin-left: 5%;
+						  }
+							  #SistemasFotovoltaicos,
+							#EficienciaEnergetica,
+							#PisoRadiante,
+							#BombagemSolar,
+							#AutomacaoIndustrial,
+							#Climatizacao{
+							  display: none;
+							}
+									  /* Style the buttons that are used to open and close the accordion panel */
+				.accordion {
+					font-size: 21px;
+				  background-color: #eee;
+				  color: #000;
+				  cursor: pointer;
+				  width: 100%;
+				  text-align: left;
+				  border: none;
+				  padding-top: 20px;
+				  padding-bottom: 20px;
+				  outline: none;
+				  transition: 0.4s;
+				  line-height: 1;
+				  text-transform: uppercase;
+				}
+				
+				/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+				.active, .accordion:hover {
+				  background-color: #FFF;
+				}
+				
+				/* Style the accordion panel. Note: hidden by default */
+				.panel {
+				  padding: 0 18px;
+				  background-color: white;
+				  display: none;
+				  overflow: hidden;
+				}
+				.panel {
+					  padding: 0 18px;
+					  background-color: white;
+					  max-height: 0;
+					  overflow: hidden;
+					  transition: max-height 0.2s ease-out;
+					}
+					.accordion:after {
+				  content: '\02795'; /* Unicode character for "plus" sign (+) */
+				  font-size: 13px;
+				  color: #777;
+				  float: right;
+				  margin-left: 5px;
+				}
+				
+				.active1:after {
+				  content: "\2796"; /* Unicode character for "minus" sign (-) */
+				}
+				.icons-div img{
+					max-width: 200px;
+					max-height: 200px;
+				}
+	</style>
+	<script>
+					var acc = document.getElementsByClassName("accordion");
+				var i;
+				
+				for (i = 0; i < acc.length; i++) {
+				  acc[i].addEventListener("click", function() {
+					/* Toggle between adding and removing the "active" class,
+					to highlight the button that controls the panel */
+					this.classList.toggle("active1");
+				
+					/* Toggle between hiding and showing the active panel */
+					var panel = this.nextElementSibling;
+					if (panel.style.display === "block") {
+					  panel.style.display = "none";
+					} else {
+					  panel.style.display = "block";
+					}
+				  });
+				}
+				</script><script>
+					var acc = document.getElementsByClassName("accordion");
+					var i;
+					
+					for (i = 0; i < acc.length; i++) {
+					  acc[i].addEventListener("click", function() {
+						this.classList.toggle("active");
+						var panel = this.nextElementSibling;
+						if (panel.style.maxHeight) {
+						  panel.style.maxHeight = null;
+						} else {
+						  panel.style.maxHeight = panel.scrollHeight + "px";
+						}
+					  });
+					}
+					</script>

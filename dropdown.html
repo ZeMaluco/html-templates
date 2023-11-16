@@ -1,0 +1,96 @@
+<div class="dropdown">
+    <button class="dropbtn df-title drop-title">Todos</button>
+ <div class="dropdown-content">
+ <p class="df-button dfc-amares"><a href="/amares">Amares</a></p>
+ <p class="df-button dfc-arcos"><a href="/arcos-de-valdevez">Arcos de Valdevez</a></p>
+ <p class="df-button dfc-barcelos"><a href="/barcelos">Barcelos</a></p>
+ <p class="df-button dfc-braga"><a href="/braga">Braga</a></p>
+ <p class="df-button dfc-cabeceiras"><a href="/cabeiceiras-de-basto">Cabeceiras de Basto</a></p>
+ <p class="df-button dfc-caminha"><a href="/caminha">Caminha</a></p>
+ <p class="df-button dfc-celorico"><a href="/celorico-de-basto">Celorico de Basto</a></p>
+ <p class="df-button dfc-esposende"><a href="/esposende">Esposende</a></p>
+ <p class="df-button dfc-fafe"><a href="/fafe">Fafe</a></p>
+ <p class="df-button dfc-guimaraes"><a href="/guimaraes">Guimarães</a></p>
+ <p class="df-button dfc-melgaco"><a href="/melgaco">Melgaço</a></p>
+ <p class="df-button dfc-moncao"><a href="/moncao">Monção</a></p>
+ <p class="df-button dfc-paredes"><a href="/paredes-de-coura">Paredes de Coura</a></p>
+   <p class="df-button dfc-ponte-barca"><a href="/ponte-da-barca">Ponte da Barca</a></p>
+ <p class="df-button dfc-ponte-lima"><a href="/ponte-de-lima">Ponte de Lima</a></p>
+ <p class="df-button dfc-povoa"><a href="/povoa-de-lanhoso">Póvoa de Lanhoso</a></p>
+ <p class="df-button dfc-bouro"><a href="/terras-de-bouro">Terras de Bouro</a></p>
+ <p class="df-button dfc-valenca"><a href="/valenca">Valença</a></p>
+ <p class="df-button dfc-viana"><a href="/viana-do-castelo">Viana do Castelo</a></p>
+ <p class="df-button dfc-vieira"><a href="/vieira-do-minho">Vieira do Minho</a></p>
+ <p class="df-button dfc-cerveira"><a href="/vila-nova-de-cerveira">Vila Nova de Cerveira</a></p>
+ <p class="df-button dfc-famalicao"><a href="/vila-nova-de-famalicao">Vila Nova de Famalicão</a></p>
+ <p class="df-button dfc-vila-verde"><a href="/vila-verde">Vila Verde</a></p>
+   <p class="df-button dfc-vizela"><a href="/vizela">Vizela</a></p>
+ 
+ </div>
+ </div>
+ <script>
+     var dropDown = document.querySelector(".dropbtn");
+     var dropDownDiv = document.querySelector(".dropdown");
+         dropDown.addEventListener("click", function(){
+           dropDownDiv.classList.toggle('show-menu');
+         });
+     var div = document.getElementsByClassName('dropdown-content');
+ 
+   for(var  i =0;i<div.length;i++){
+         for(var  j =0;j<div[i].children.length;j++){
+       div[i].children[j].addEventListener('click',function(){  
+              this.parentNode.previousElementSibling.innerHTML = this.innerHTML;
+         dropDownDiv.classList.toggle('show-menu');
+       })
+       }
+   }
+ 
+ </script>
+ <style>
+   @media only screen and (max-width:1023px){
+     .dropdown-content{
+           position: inherit;
+     }
+     .drop-title{
+       width:100%;
+     }
+   }
+   
+   .dropdown{
+         width:477px;
+     max-width: 100%;
+   }
+   .df-button,
+     .df-button a{
+     color: #000;
+     font-family: Montserrat;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal; 
+   }
+   .df-button a {
+     width: 100%;
+     display: block;
+   }
+ .drop-title,
+ .drop-title a {
+ 
+   padding-top:1.5%;
+   padding-bottom:1.5%;
+   padding-left:2%;
+   width:70%;
+   text-align:left;
+   color: #000;
+   font-family: Montserrat;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;  
+  
+   background-color: white;
+   }
+   .drop-title{
+      border: 1px solid #337321;  
+   }
+ </style>

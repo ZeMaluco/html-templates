@@ -1,0 +1,9 @@
+<a href="/">Home</a> &gt; <strong>Dormir</strong>
+<strong>&lt;<span style="text-decoration: underline;"><a class="back-button">Voltar</a></span></strong>
+
+<script>
+	let backBtn = document.querySelector(".back-button");
+	backBtn.addEventListener('click',function(){
+		window.history.back();
+	});
+</script>

@@ -1,0 +1,200 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<html>
+<div class="header-classic header-home">
+          <div class="header header-classic header-lg">
+
+  <div class="mid-bar navbar-nav">
+    <div class="desktop-logo-wrapper">
+      <div id="logo">
+                  <a href="/finesse">
+            <img src="https://finesseleague.com/image/catalog/logo/Logo%201.png"  width="257" height="220" alt="FinesseLeague" title="FinesseLeague">
+          </a>
+              </div>
+    </div>
+               
+  </div>
+  </div>
+        </div>
+<body>
+<div id="common-home" class="container">
+<div class="row">
+  <div class="column esquerda cima icon1" ><a class="link-t" href="/lucas"><img src="https://finesseleague.com/image//image/catalog/Chef%20Hat.png"></a><p class="titulo">Lucas</p></div>
+  <div class="column direita cima icon2"><a class="link-t " href="/receitas"><img src="https://finesseleague.com/image/catalog/Talheres.png"></a><p class="titulo">Comer</p></div>
+</div>
+<div class="row">
+  <div class="column esquerda icon3"><a class="link-t " href="/loja"><img src="https://finesseleague.com/image/catalog/Steak.png"> </a><p class="titulo">Loja</p></div>
+  <div class="column direita icon4"><a class="link-t " href="/index.php?route=information/contact"><img src="https://finesseleague.com/image/catalog/telefone.png"> </a><p class="titulo">Contactos</p></div>
+</div>
+</div>
+</body>
+<html>
+<style>
+html{
+background-image: url("https://finesseleague.com/image/catalog/finesse_web.gif");   
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+height: 99,9vh;
+padding:0;
+margin:0;
+cursor: url('https://finesseleague.com/image/catalog/Cutelo.png'), auto;
+border-bottom: 6px solid #99251D;
+}
+.header-home{
+        text-align: center;
+    margin-top: 2%;
+}
+
+.column {
+display:flex;
+    flex-direction: row-reverse;
+    text-align:center;
+color:white;
+height:5em;
+width:5em;
+}
+
+/* Clear floats after the columns */
+
+.titulo{
+    display:none;
+}
+.link-t:hover + .titulo {
+  display: inline-block;
+  color: white;
+}
+.titulo:hover {
+  display: inline-block;
+  color: white;
+}
+.link-t{
+    cursor: url('https://finesseleague.com/image/catalog/Cutelo.png'), auto;
+}
+.icon1,
+.icon2,
+.icon3,
+.icon4{
+  position:fixed;
+  top:50%;
+  left:50%;
+}
+@media screen and (max-width: 992px) {
+html{
+  
+background-image: url("https://finesseleague.com/image/catalog/vertical_finesse.gif");  
+
+}
+.titulo{
+    display:block;
+    font-size:2em;
+}
+
+.column img{
+  width:5em;
+  height:5em;
+}
+}
+</style>
+<script>
+
+$(document).ready(function(){
+  animateDiv();
+
+    
+});
+
+function makeNewPosition(){
+    
+    // Get viewport dimensions (remove the dimension of the div)
+    var h = $(window).height() - 50;
+    var w = $(window).width() - 50;
+    
+    var nh = Math.floor(Math.random() * h);
+    var nw = Math.floor(Math.random() * w);
+    
+    return [nh,nw];    
+    
+}
+
+function animateDiv(){
+    var newq1 = makeNewPosition();
+    var newq2 = makeNewPosition();
+    var newq3 = makeNewPosition();
+    var newq4 = makeNewPosition();
+    var oldq1 = $('.icon1').offset();
+    var oldq2 = $('.icon2').offset();
+    var oldq3 = $('.icon3').offset();
+    var oldq4 = $('.icon4').offset();
+    var speed1 = calcSpeed([oldq1.top, oldq1.left], newq1);
+    var speed2 = calcSpeed([oldq2.top, oldq2.left], newq2);
+    var speed3 = calcSpeed([oldq3.top, oldq3.left], newq3);
+    var speed4 = calcSpeed([oldq4.top, oldq4.left], newq4);
+    
+    $('.icon1').animate({ top: newq1[0], left: newq1[1] }, speed1, function(){
+      animateDiv();        
+    })
+    .hover(function(){
+        $(this).stop(true,false);
+    })
+    .mouseout(function(){
+     $('.icon1').animate({ top: newq1[0], left: newq1[1] }, speed1, function(){
+      animateDiv();        
+    })
+    });
+
+
+    $('.icon2').animate({ top: newq2[0], left: newq2[1] }, speed2, function(){
+      animateDiv();        
+    })
+    .hover(function(){
+        $(this).stop(true,false);
+    })
+    .mouseout(function(){
+      $('.icon2').animate({ top: newq2[0], left: newq2[1] }, speed2, function(){
+      animateDiv();        
+    })
+    });
+    
+    
+    $('.icon3').animate({ top: newq3[0], left: newq3[1] }, speed3, function(){
+      animateDiv();        
+    })
+    .hover(function(){
+        $(this).stop(true,false);
+    })
+    .mouseout(function(){
+      $('.icon3').animate({ top: newq3[0], left: newq3[1] }, speed3, function(){
+      animateDiv();        
+    })
+    });
+
+
+    $('.icon4').animate({ top: newq4[0], left: newq4[1] }, speed4, function(){
+      animateDiv();        
+    })
+    .hover(function(){
+        $(this).stop(true,false);
+    })
+    .mouseout(function(){
+      $('.icon4').animate({ top: newq4[0], left: newq4[1] }, speed4, function(){
+      animateDiv();        
+    })
+    });
+    
+};
+
+function calcSpeed(prev, next) {
+    
+    var x = Math.abs(prev[1] - next[1]);
+    var y = Math.abs(prev[0] - next[0]);
+    
+    var greatest = x > y ? x : y;
+    
+    var speedModifier = 0.07;
+
+    var speed = Math.ceil(greatest/speedModifier);
+
+    return speed;
+
+};
+</script>
