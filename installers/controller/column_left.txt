@@ -1,0 +1,44 @@
+            if ($this->user->hasPermission('access', 'marketplace/installer')) {
+                $marketplace[] = array(
+                    'name'	   => $this->language->get('text_installer'),
+                    'href'     => $this->url->link('marketplace/installer', 'user_token=' . $this->session->data['user_token'], true),
+                    'children' => array()
+                );
+            }
+//INSTALADOR
+            $installer = array();
+
+            if ($this->user->hasPermission('access', 'installer/installer')) {
+                $installer[] = array(
+                    'name'	   => $this->language->get('text_installer'),
+                    'href'     => $this->url->link('installer/installer', 'user_token=' . $this->session->data['user_token'], true),
+                    'children' => array()
+                );
+            }
+
+            if ($this->user->hasPermission('access', 'installer/installer')) {
+                $installer[] = array(
+                    'name'	   => $this->language->get('text_installer_group'),
+                    'href'     => $this->url->link('installer/installer_group', 'user_token=' . $this->session->data['user_token'], true),
+                    'children' => array()
+                );
+            }
+
+            if ($this->user->hasPermission('access', 'customer/custom_field')) {
+                $customer[] = array(
+                    'name'	   => $this->language->get('text_custom_field'),
+                    'href'     => $this->url->link('customer/custom_field', 'user_token=' . $this->session->data['user_token'], true),
+                    'children' => array()
+                );
+            }
+
+            if ($installer) {
+                $data['menus'][] = array(
+                    'id'       => 'menu-installer',
+                    'icon'	   => 'fa-user',
+                    'name'	   => $this->language->get('text_installer'),
+                    'href'     => '',
+                    'children' => $installer
+                );
+            }
+//-------------------------
